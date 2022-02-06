@@ -8,5 +8,110 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
 
-  <body></body>
+  <body>
+    <h1>PERSONALIZA TU HAMBURGUESA</h1>
+
+    <fieldset>
+      <fieldset>
+        <h3>Ingredientes</h3>
+
+        <fieldset>
+          <label for="queso"
+            >Queso <input type="checkbox" name="queso" id="queso"
+          /></label>
+
+          <label for="pimiento"
+            >Pimiento <input type="checkbox" name="pimiento" id="pimiento"
+          /></label>
+
+          <label for="cebolla"
+            >Cebolla <input type="checkbox" name="cebolla" id="cebolla"
+          /></label>
+
+          <label for="jamon"
+            >Jamón <input type="checkbox" name="jamón" id="jamon"
+          /></label>
+
+          <label for="Huevo"
+            >Huevo <input type="checkbox" name="huevo" id="Huevo"
+          /></label>
+        </fieldset>
+      </fieldset>
+
+      <fieldset>
+        <h3>Tamaño</h3>
+        <fieldset>
+          <label for="pequeño"
+            >Mediano<input type="radio" name="pequeño" id="pequeño"
+          /></label>
+
+          <label for="mediano"
+            >Mediano<input type="radio" name="mediano" id="mediano"
+          /></label>
+
+          <label for="grande"
+            >Grande <input type="radio" name="grande" id="grande"
+          /></label>
+        </fieldset>
+      </fieldset>
+    </fieldset>
+    <fieldset>
+      <h2>DATOS DE ENTREGA</h2>
+      <label for="Name">Nombre</label>
+      <p>
+        <input
+          type="text"
+          id="Name"
+          name="Name"
+          placeholder="Samuel Rodriguez"
+          required
+        />
+      </p>
+
+      <label for="direcction">Dirección</label>
+      <p>
+        <input
+          type="text"
+          id="direcction"
+          name="direcction"
+          placeholder="Rua Real "
+          required
+        />
+      </p>
+
+      <label for="telefono">Télefono</label>
+      <p>
+        <input
+          type="text"
+          id="telefono"
+          name="telefono"
+          placeholder="635635635"
+          required
+        />
+      </p>
+
+      <label for="instrucciones">Instrucciones especiales</label>
+      <p>
+        <input
+          type="text"
+          id="instrucciones"
+          name="instrucciones"
+          placeholder="Sin tomate"
+          required
+        />
+      </p>
+    </fieldset>
+    <fieldset>
+      <h2>MÉTODO DE PAGO</h2>
+
+      <p>
+        <select name="pay" required>
+          <option value="">Tarjeta de crédito</option>
+        </select>
+      </p>
+    </fieldset>
+    <aside>
+      <input type="submit" value="Enviar" />
+    </aside>
+  </body>
 </html>
